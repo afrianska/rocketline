@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: rocketline_production
-  username: rocketline
+  username: afrian
   password: <%= ENV['ROCKETLINE_DATABASE_PASSWORD'] %>
